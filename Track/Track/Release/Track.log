@@ -1,24 +1,25 @@
-﻿Build started 7/12/2013 1:29:39 PM.
-     1>Project "C:\cygwin\home\Pranav\Track\Track\Track\Track.vcxproj" on node 2 (build target(s)).
+﻿Build started 7/19/2013 11:49:47 AM.
+     1>Project "C:\Kinect Project\Track\Track\Track\Track.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Release\Track.unsuccessfulbuild".
+         Creating "Release\Track.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Python27\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Track.cpp
+         Track.cpp
+     1>Track.cpp(24): warning C4101: 'pValue' : unreferenced local variable
+     1>Track.cpp(25): warning C4101: 'pArgs' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin\home\Pranav\Track\Track\Release\Track.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Python27\libs C:\Python27\libs\python27.lib C:\Python27\libs\_socket.lib C:\Python27\libs\_bsddb.lib C:\Python27\libs\_ctypes.lib C:\Python27\libs\_ctypes_test.lib C:\Python27\libs\_elementtree.lib C:\Python27\libs\_hashlib.lib C:\Python27\libs\_msi.lib C:\Python27\libs\_multiprocessing.lib C:\Python27\libs\_sqlite3.lib C:\Python27\libs\_ssl.lib C:\Python27\libs\_testcapi.lib C:\Python27\libs\_tkinter.lib C:\Python27\libs\bz2.lib C:\Python27\libs\pyexpat.lib C:\Python27\libs\select.lib C:\Python27\libs\unicodedata.lib C:\Python27\libs\winsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Track.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cygwin\home\Pranav\Track\Track\Release\Track.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin\home\Pranav\Track\Track\Release\Track.lib" /MACHINE:X86 /DLL Release\stdafx.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Kinect Project\Track\Track\Release\Track.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Python27\libs C:\Python27\libs\python27.lib C:\Python27\libs\_bsddb.lib C:\Python27\libs\_ctypes.lib C:\Python27\libs\_ctypes_test.lib C:\Python27\libs\_elementtree.lib C:\Python27\libs\_hashlib.lib C:\Python27\libs\_msi.lib C:\Python27\libs\_multiprocessing.lib C:\Python27\libs\_socket.lib C:\Python27\libs\_sqlite3.lib C:\Python27\libs\_ssl.lib C:\Python27\libs\_testcapi.lib C:\Python27\libs\_tkinter.lib C:\Python27\libs\bz2.lib C:\Python27\libs\pyexpat.lib C:\Python27\libs\select.lib C:\Python27\libs\unicodedata.lib C:\Python27\libs\winsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Track.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Kinect Project\Track\Track\Release\Track.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Kinect Project\Track\Track\Release\Track.lib" /MACHINE:X86 Release\stdafx.obj
          Release\Track.obj
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyString_FromString
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyCallable_Check
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyObject_CallObject
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__Py_Initialize
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyImport_Import
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyModule_GetDict
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyDict_GetItemString
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__PyErr_Print
-     1>Track.obj : error LNK2001: unresolved external symbol __imp__Py_Finalize
-     1>C:\cygwin\home\Pranav\Track\Track\Release\Track.dll : fatal error LNK1120: 9 unresolved externals
-     1>Done Building Project "C:\cygwin\home\Pranav\Track\Track\Track\Track.vcxproj" (build target(s)) -- FAILED.
+         Generating code
+         Finished generating code
+         Track.vcxproj -> C:\Kinect Project\Track\Track\Release\Track.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Kinect Project\Track\Track\Release\Track.exe;#1" /manifest Release\Track.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Track.unsuccessfulbuild".
+         Touching "Release\Track.lastbuildstate".
+     1>Done Building Project "C:\Kinect Project\Track\Track\Track\Track.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:01.11

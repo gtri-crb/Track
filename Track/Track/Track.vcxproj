@@ -22,7 +22,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
@@ -76,7 +76,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>C:\Python27\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Python27\libs\python27.lib;C:\Python27\libs\_socket.lib;C:\Python27\libs\_bsddb.lib;C:\Python27\libs\_ctypes.lib;C:\Python27\libs\_ctypes_test.lib;C:\Python27\libs\_elementtree.lib;C:\Python27\libs\_hashlib.lib;C:\Python27\libs\_msi.lib;C:\Python27\libs\_multiprocessing.lib;C:\Python27\libs\_sqlite3.lib;C:\Python27\libs\_ssl.lib;C:\Python27\libs\_testcapi.lib;C:\Python27\libs\_tkinter.lib;C:\Python27\libs\bz2.lib;C:\Python27\libs\pyexpat.lib;C:\Python27\libs\select.lib;C:\Python27\libs\unicodedata.lib;C:\Python27\libs\winsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>C:\Python27\libs\python27.lib;C:\Python27\libs\_bsddb.lib;C:\Python27\libs\_ctypes.lib;C:\Python27\libs\_ctypes_test.lib;C:\Python27\libs\_elementtree.lib;C:\Python27\libs\_hashlib.lib;C:\Python27\libs\_msi.lib;C:\Python27\libs\_multiprocessing.lib;C:\Python27\libs\_socket.lib;C:\Python27\libs\_sqlite3.lib;C:\Python27\libs\_ssl.lib;C:\Python27\libs\_testcapi.lib;C:\Python27\libs\_tkinter.lib;C:\Python27\libs\bz2.lib;C:\Python27\libs\pyexpat.lib;C:\Python27\libs\select.lib;C:\Python27\libs\unicodedata.lib;C:\Python27\libs\winsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
